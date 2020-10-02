@@ -7,7 +7,7 @@ public class RockPaperScissor{
 
 		Scanner sc = new Scanner(System.in);
 		Scanner user = new Scanner(System.in);
-		String player = user.next();
+		char.player = user.next().charAt(0);
 
 		int n = 5;
 		do {
@@ -57,6 +57,6 @@ public class RockPaperScissor{
 			else if (compChoice == 2 && playerChoice == 1)
 				System.out.println("\nYou Loose !!");
 			System.out.println("do you want to play again?? y/n");
-		} while (player == "y");
+		} while (player=="y");
 	}
 }
