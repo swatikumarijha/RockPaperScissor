@@ -21,7 +21,7 @@ public class RockPaperScissor{
 				System.out.println("You selected paper");
 				break;
 			case 2:
-				System.out.println("You selected scissor");
+				System.out.println("You selected scissors");
 				break;
 			default:
 				System.out.println("Choose 0 or 1 or 2 ");
@@ -38,7 +38,7 @@ public class RockPaperScissor{
 				System.out.println("Computer Selected paper");
 				break;
 			case 2:
-				System.out.println("Computer Selected scisssor");
+				System.out.println("Computer Selected scisssors");
 				break;
 			}
 
